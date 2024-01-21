@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>Contacto - Barbería Alura</title>
+        <!--el vinculo a reset debe colocarse previo a las etiquetas de estilo
+        para que no borre sus atributos-->
+        <link rel="stylesheet" href="reset.css">
+        <link rel="stylesheet" href="style.css"> 
+    </head>
+    <body>
+        <header>
+            <div class="caja">
+                <h1><img src="logo.png"></h1> 
+                <!--nav que indica panel de navegacion-->
+                <nav>
+                    <ul>
+                        <!--a de anchor para referinos a un hipervinculo-->
+                        <!--de esta manera los elementos de la lista han quedado ligados a un hipervinculo-->
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="productos.html">Productos</a></li>
+                    <li><a href="contacto.html">Contacto</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </header> 
+        <main>
+            <!--etiqueta form utilizada para pedir un formulario-->
+            <form>
+                <!--etiqueta de contenido-->
+                <label for="nombreapellido">Nombre y Apellido</label>
+                <!--input eqiqueta que solicita una entrada.
+                siempre que se coloca una etiqueta input de tipo texto, debe ir una etiqueta label
+            asociado para indicar a que se refiere el input-->
+                <input type="text" id="nombreapellido">
+
+                <label for="correoelectronico">Correo Electronico</label>    
+                <input type="text" id="correoelectronico">
+
+                <label for="numdetelefono">Numero de Telefono</label>
+                <input type="text" id="numdetelefono">
+
+                <!--submit se utiliza para evocar un boton para enviar formulario-->
+                <input type="submit" value="Enviar Formulario">
+
+
+            </form>
+        </main>
+        <footer>
+            <img src="logo-blanco.png">
+            <p class="copyright">&copy copyright Barbería Alura - 2020</p>
+        </footer>
+    </body>
+    </html>
