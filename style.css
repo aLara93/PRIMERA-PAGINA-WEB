@@ -1,0 +1,52 @@
+/* para seleccionar una clase siempre se inicia con un punto, las etiquetas no lo necesitan*/
+.titulo-principal{
+    padding-left: 30px;
+}
+/* el selector # se utiliza para evocar un ID*/
+#banner{
+    width: 100%;
+}
+
+.principal{
+    background: #CCCCCC;
+    /*padding es utilizado para dar separacion entre parrafos */
+    padding: 20px;
+}
+
+.titulo-centralizado{
+    text-align: center;
+}
+
+p{
+    text-align: center; 
+}
+
+em strong{
+    color: red;
+}  
+
+#mision{
+    font-size: 20px;
+}
+
+.diferenciales{
+    background: #FFFFFF;
+    padding: 30px;
+}
+
+.items{
+    font-style: italic;
+}
+
+ul{
+    /*  display: inline-block se crear una caja de lado a lado que proteja al texto*/
+    display: inline-block;
+    /* da orientacion vertical al elemento*/
+    vertical-align: top;
+    width: 20%;
+    margin-right: 15%;
+}
+
+.imagenDiferencial{
+    width: 50%;
+}
