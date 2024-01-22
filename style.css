@@ -106,7 +106,7 @@ form{
     margin: 40px 40px 0px;
 }
 /* se puede aplicar el mismo estilo a diferentes elementos solo separando con una coma ","*/
-form label, form p{
+form label, form p, legend{
     display: block;
     font-size: 20px;
     margin: 0 0 10px;
