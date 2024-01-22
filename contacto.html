@@ -33,36 +33,42 @@
                 <!--input eqiqueta que solicita una entrada.
                 siempre que se coloca una etiqueta input de tipo texto, debe ir una etiqueta label
             asociado para indicar a que se refiere el input-->
-                <input type="text" id="nombreapellido" class="input-padron">
+                <input type="text" id="nombreapellido" class="input-padron" required>
 
+                <!--las etiquetas type=tel type=email se refieren a el tipo de input de datos y ayudan a 
+                cambiar la manera en que se visualiza el teclado o caracteristicas al ejecutarse
+            en un dispositivo movil-->
                 <label for="correoelectronico">Correo Electronico</label>    
-                <input type="text" id="correoelectronico" class="input-padron">
+                <input type="email" id="correoelectronico" class="input-padron" required placeholder="email@dominio.com">
 
+                <!--la etiqueta placeholder se utiliza para dar una ayuda visual dentro del input
+                para que el usuario se de una idea de la entrada que se le solicita-->
                 <label for="numdetelefono">Numero de Telefono</label>
-                <input type="text" id="numdetelefono" class="input-padron">
+                <input type="tel" id="numdetelefono" class="input-padron" required placeholder="(xx) xxxx xxxx">
 
+                <!--la etiqueta required se utiliza para solicitar de manera obligatoria el llenado de un input-->
                 <label for="mensaje">Mensaje</label>
-                <textarea cols="70" rows="10" id="mensaje" class="input-padron"></textarea>
+                <textarea cols="70" rows="10" id="mensaje" class="input-padron" required></textarea>
 
             <div>
-                    <p class="test" id="test">como le gustaria que lo contactemos?</p>
+                    <p class="test" id="test">¿como le gustaria que lo contactemos?</p>
 
                     <!--name=contacto se utiliza para indicar que los 
                         objetos englobados en la etiqueta pertenencen al mismo input-->
     
                     <label for="radio-email"><input type="radio" name="contacto" 
                         value="email" id="radio-email">E-mail</label>
-    
+
                     <label for="radio-telefono"><input type="radio" name="contacto" 
                         value="telefono" id="radio-telefono">Telefono</label>
                     
                     <label for="radio-whatsapp"><input type="radio" name="contacto" 
-                        value="whatsapp" id="radio-whatsapp">Whatsapp</label>
+                        value="whatsapp" id="radio-whatsapp" checked> Whatsapp</label>
                     
             </div>
 
             <div>
-                <p>En cuál horario prefiere ser Atendido?</p>
+                <p>¿En cuál horario prefiere ser Atendido?</p>
                 <!--options se utiliza para crear los items seleccionables de un select-->
                 <select>
                     <option>Mañana</option>
@@ -71,7 +77,7 @@
                 </select>
             </div>
                 
-              <label class="checkbox"><input type="checkbox">Le gustaria recibir novedades de la Barbería Alura?</label>
+              <label class="checkbox"><input type="checkbox" checked>¿Le gustaria recibir novedades de la Barbería Alura?</label>
 
                 <!--submit se utiliza para evocar un boton para enviar formulario-->
                 <input type="submit" value="Enviar Formulario">
