@@ -124,4 +124,31 @@ form label, form p, legend{
     margin: 20px 0;
    
 }
+/* se cambió la anchura del boton enviar*/
+.enviar{
+    width: 40%;
+    /*se cambio el espaciamiento interno con el padding para que el botón tenga un formato mas grande
+    los 15px son hacia arriba y abajo, y el 0 es para los laterales*/
+    padding: 15px 0;
+    font-size: 18px;
+    font-weight: bold;
+    color: white;
+    background: orange;
+    border: none;
+    /* border-radius se utiliza para dar efecto redondeado a un borde o esquina*/
+    border-radius: 5px;
+    transition: 1s all;
+    /*al pasar por un elemento cambia el cursor a una manita apuntando*/
+    cursor: pointer;
+}
+
+.enviar:hover{
+    background: darkorange;
+    /*redimensiona el objeto cuando el mouse se posiciona sobre el mismo*/
+    transform: scale(1.2);
+
+}
+
+
+
 
