@@ -5,7 +5,7 @@ body{
 
 header{
     background-color: #BBBBBB;
-    padding: 20px 0;
+    padding: 2% 0;
 }
 
 .caja{
@@ -43,10 +43,10 @@ nav a:hover{
 }
 
 .productos{
-    width: 940px;
+    width: 58.75em;
     margin: 0 auto;
     /* padding se usa para aumentar el tamaño de un elemento*/
-    padding: 50px;
+    padding: 3.125em;
 }
 
 .productos li{
@@ -55,11 +55,11 @@ nav a:hover{
     width: 30%;
     vertical-align: top; 
     margin: 0 1.5%;
-    padding: 30px 20px;
+    padding: 1.875em 1.25em;
     box-sizing: border-box;
     border-color: #000000;
-    border: 2px solid #000000;
-    border-radius: 10px 10px 10px 10px;
+    border: 0.125em solid #000000;
+    border-radius: 0.625em 0.625em 0.625em 0.625em;
 }
 
 .productos li:hover{
@@ -72,28 +72,30 @@ nav a:hover{
 }
 
 .productos h2{
-    font-size: 30px;
+    font-size: 1.875em;
     font-weight: bold;
 }
 
 .productos li:hover h2{
-    font-size: 33px;
+    font-size: 2.063em;
 }
 
 .producto-descripcion{
-    font-size: 18px;
+    font-size: 1.125em;
 }
 
 .producto-precio{
-    font-size: 20px;
+    font-size: 1.25em;
     font-weight: bold;
-    margin-top: 10px;
+    margin-top: 0.625em;
 }
+
+
 
 footer{
     text-align: center;
-    background: url(bg.jpg);
-    padding: 40px;
+    background: url(imagenes/bg.jpg);
+    padding: 5%;
 }
 
 .copyright{
@@ -337,5 +339,29 @@ caso contrario usar last-child*/
         padding: 50px;
     }
 
+    .imagen-producto{
+        height: 3em;
+        width: 3em;
+        margin: 3em;
+    }
 
+    .productos{
+        width: auto;
+        margin: 0 auto;
+        /* padding se usa para aumentar el tamaño de un elemento*/
+        padding: 3.125em;
+    }
+    
+    .productos li{
+        display: inline-block;
+        text-align: center;
+        width: auto;
+        vertical-align: top; 
+        margin: 0 1.5%;
+        padding: 1.875em 1.25em;
+        box-sizing: border-box;
+        border-color: #000000;
+        border: 0.125em solid #000000;
+        border-radius: 0.625em 0.625em 0.625em 0.625em;
+    }
 }
